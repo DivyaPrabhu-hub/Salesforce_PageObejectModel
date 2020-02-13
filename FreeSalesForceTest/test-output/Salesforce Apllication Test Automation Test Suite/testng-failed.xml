@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Salesforce Apllication Test Automation Test Suite]">
+  <test name="Salesforce App Test Cases">
+    <classes>
+      <class name="com.Salesforce.qa.testcases.LoginPageTest"/>
+      <class name="com.Salesforce.qa.testcases.FogotPasswordTest"/>
+      <class name="com.Salesforce.qa.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- Salesforce App Test Cases -->
+</suite> <!-- Failed suite [Salesforce Apllication Test Automation Test Suite] -->
