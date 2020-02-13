@@ -3,6 +3,8 @@ package com.Salesforce.qa.base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -11,13 +13,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.Salesforce.qa.util.TestUtil;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 
 public class TestBase {
 
 	public static WebDriver driver;
 	public static Properties prop;
+	static ExtentReports reports;
+	static ExtentTest logger;
 	
 	 public TestBase(){
+		 
 		 
 		 try{
 			 prop = new Properties();
@@ -30,8 +37,12 @@ public class TestBase {
 			 
 		 }catch (IOException e){
 			 e.printStackTrace();	 
-		 }	 	 
+		 }	
+		 
+		 
 	 }	
+	 
+	 
 	 
 	 public static void initialization(){
 		 String browserName = prop.getProperty("browser");
@@ -43,7 +54,7 @@ public class TestBase {
 			 System.setProperty("webdriver.gecko.driver", "//Users//divya//Documents//geckodriver");
 			 driver = new FirefoxDriver();
 		 }
-		 
+	 
 		 driver.manage().window().maximize();
 		 driver.manage().deleteAllCookies();
 		 driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);

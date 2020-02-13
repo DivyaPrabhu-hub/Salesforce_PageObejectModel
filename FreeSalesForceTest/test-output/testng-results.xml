@@ -1,113 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Salesforce Apllication Test Automation Test Suite" duration-ms="38497" started-at="2020-02-13T06:13:54Z" finished-at="2020-02-13T06:14:32Z">
+  <suite name="Default suite" duration-ms="23686" started-at="2020-02-13T07:20:46Z" finished-at="2020-02-13T07:21:10Z">
     <groups>
     </groups>
-    <test name="Salesforce App Test Cases" duration-ms="38497" started-at="2020-02-13T06:13:54Z" finished-at="2020-02-13T06:14:32Z">
+    <test name="Default test" duration-ms="23686" started-at="2020-02-13T07:20:46Z" finished-at="2020-02-13T07:21:10Z">
       <class name="com.Salesforce.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="setUp" is-config="true" duration-ms="3174" started-at="2020-02-12T22:13:54Z" finished-at="2020-02-12T22:13:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="setUp" is-config="true" duration-ms="2509" started-at="2020-02-12T23:20:46Z" finished-at="2020-02-12T23:20:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="remembermetextBox()[pri:1, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="remembermetextBox" duration-ms="9429" started-at="2020-02-12T22:13:57Z" finished-at="2020-02-12T22:14:06Z">
+        <test-method status="PASS" signature="remembermetextBox()[pri:1, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="remembermetextBox" duration-ms="7935" started-at="2020-02-12T23:20:48Z" finished-at="2020-02-12T23:20:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- remembermetextBox -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="tearDown" is-config="true" duration-ms="191" started-at="2020-02-12T22:14:06Z" finished-at="2020-02-12T22:14:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="tearDown" is-config="true" duration-ms="161" started-at="2020-02-12T23:20:56Z" finished-at="2020-02-12T23:20:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="setUp" is-config="true" duration-ms="1917" started-at="2020-02-12T22:14:06Z" finished-at="2020-02-12T22:14:08Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="setUp" is-config="true" duration-ms="1684" started-at="2020-02-12T23:20:57Z" finished-at="2020-02-12T23:20:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginerrorMessage()[pri:2, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="loginerrorMessage" duration-ms="728" started-at="2020-02-12T22:14:08Z" finished-at="2020-02-12T22:14:09Z">
+        <test-method status="PASS" signature="loginerrorMessage()[pri:2, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="loginerrorMessage" duration-ms="681" started-at="2020-02-12T23:20:58Z" finished-at="2020-02-12T23:20:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginerrorMessage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="tearDown" is-config="true" duration-ms="157" started-at="2020-02-12T22:14:09Z" finished-at="2020-02-12T22:14:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="tearDown" is-config="true" duration-ms="89" started-at="2020-02-12T23:20:59Z" finished-at="2020-02-12T23:20:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="setUp" is-config="true" duration-ms="1720" started-at="2020-02-12T22:14:09Z" finished-at="2020-02-12T22:14:11Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="setUp" is-config="true" duration-ms="1746" started-at="2020-02-12T23:20:59Z" finished-at="2020-02-12T23:21:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:3, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="LoginPageTitleTest" duration-ms="21" started-at="2020-02-12T22:14:11Z" finished-at="2020-02-12T22:14:11Z">
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:3, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="LoginPageTitleTest" duration-ms="33" started-at="2020-02-12T23:21:01Z" finished-at="2020-02-12T23:21:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="tearDown" is-config="true" duration-ms="138" started-at="2020-02-12T22:14:11Z" finished-at="2020-02-12T22:14:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="tearDown" is-config="true" duration-ms="81" started-at="2020-02-12T23:21:01Z" finished-at="2020-02-12T23:21:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="setUp" is-config="true" duration-ms="1786" started-at="2020-02-12T22:14:11Z" finished-at="2020-02-12T22:14:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="setUp" is-config="true" duration-ms="1780" started-at="2020-02-12T23:21:01Z" finished-at="2020-02-12T23:21:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SalesforceLogoTest()[pri:4, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="SalesforceLogoTest" duration-ms="69" started-at="2020-02-12T22:14:13Z" finished-at="2020-02-12T22:14:13Z">
+        <test-method status="PASS" signature="SalesforceLogoTest()[pri:4, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="SalesforceLogoTest" duration-ms="81" started-at="2020-02-12T23:21:03Z" finished-at="2020-02-12T23:21:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SalesforceLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="tearDown" is-config="true" duration-ms="84" started-at="2020-02-12T22:14:13Z" finished-at="2020-02-12T22:14:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="tearDown" is-config="true" duration-ms="94" started-at="2020-02-12T23:21:03Z" finished-at="2020-02-12T23:21:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="setUp" is-config="true" duration-ms="1689" started-at="2020-02-12T22:14:13Z" finished-at="2020-02-12T22:14:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="setUp" is-config="true" duration-ms="1716" started-at="2020-02-12T23:21:03Z" finished-at="2020-02-12T23:21:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:5, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="loginTest" duration-ms="3140" started-at="2020-02-12T22:14:15Z" finished-at="2020-02-12T22:14:18Z">
+        <test-method status="PASS" signature="loginTest()[pri:5, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="loginTest" duration-ms="2923" started-at="2020-02-12T23:21:05Z" finished-at="2020-02-12T23:21:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@26ba2a48]" name="tearDown" is-config="true" duration-ms="152" started-at="2020-02-12T22:14:18Z" finished-at="2020-02-12T22:14:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.LoginPageTest@38082d64]" name="tearDown" is-config="true" duration-ms="2150" started-at="2020-02-12T23:21:07Z" finished-at="2020-02-12T23:21:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Salesforce.qa.testcases.LoginPageTest -->
-      <class name="com.Salesforce.qa.testcases.FogotPasswordTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.FogotPasswordTest@5f2050f6]" name="setUp" is-config="true" duration-ms="1746" started-at="2020-02-12T22:14:18Z" finished-at="2020-02-12T22:14:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="forgotPassword_4A()[pri:1, instance:com.Salesforce.qa.testcases.FogotPasswordTest@5f2050f6]" name="forgotPassword_4A" duration-ms="872" started-at="2020-02-12T22:14:20Z" finished-at="2020-02-12T22:14:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotPassword_4A -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.FogotPasswordTest@5f2050f6]" name="tearDown" is-config="true" duration-ms="92" started-at="2020-02-12T22:14:21Z" finished-at="2020-02-12T22:14:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.FogotPasswordTest@5f2050f6]" name="setUp" is-config="true" duration-ms="1723" started-at="2020-02-12T22:14:21Z" finished-at="2020-02-12T22:14:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="forgotPassword_4B()[pri:2, instance:com.Salesforce.qa.testcases.FogotPasswordTest@5f2050f6]" name="forgotPassword_4B" duration-ms="380" started-at="2020-02-12T22:14:22Z" finished-at="2020-02-12T22:14:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotPassword_4B -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.FogotPasswordTest@5f2050f6]" name="tearDown" is-config="true" duration-ms="131" started-at="2020-02-12T22:14:23Z" finished-at="2020-02-12T22:14:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.Salesforce.qa.testcases.FogotPasswordTest -->
-      <class name="com.Salesforce.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Salesforce.qa.testcases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="6092" started-at="2020-02-12T22:14:23Z" finished-at="2020-02-12T22:14:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Userdropdown()[pri:0, instance:com.Salesforce.qa.testcases.HomePageTest@3b81a1bc]" name="Userdropdown" duration-ms="2921" started-at="2020-02-12T22:14:29Z" finished-at="2020-02-12T22:14:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Userdropdown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Salesforce.qa.testcases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="119" started-at="2020-02-12T22:14:32Z" finished-at="2020-02-12T22:14:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.Salesforce.qa.testcases.HomePageTest -->
-    </test> <!-- Salesforce App Test Cases -->
-  </suite> <!-- Salesforce Apllication Test Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

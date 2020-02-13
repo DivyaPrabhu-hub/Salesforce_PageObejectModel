@@ -40,7 +40,8 @@ public class LoginPage extends TestBase{
 	//Initializing the Page Objects:
 	public LoginPage(){
 		PageFactory.initElements(driver, this);
-	}
+		
+	}	
 	
 	//Actions:
 	public String validateLoginPageTitle(){
